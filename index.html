@@ -8,8 +8,11 @@
 
   <!-- HOSTED -->
   
-  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
-
+  <!-- <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" /> -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+/>
   <!-- LOCAL -->
   <link rel="stylesheet" href="style/style.css">
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
@@ -63,7 +66,7 @@
     <div class="flex">
 
       <div class="text">
-        Hello, I'm <span class="highlight">Fauzi Agustian</span>.
+        Hi, I'm <span class="highlight">Fauzi Agustian</span>.
         <br>
         <!-- Front-End Developer -->
       </div>
@@ -89,65 +92,66 @@
   <section id="about">
     <div class="container flex">
 
-      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+    <div class="header waypoint" data-animation="slide-in-left">ABOUT ME</div>
+    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
-      <div class="flex row label-wrap">
-        <div class="flex row-gt-sm">
-        <div class="flex bullet-wrap ">
+    <div class="flex row label-wrap">
+      <div class="flex row-gt-sm">
+        <div class="flex bullet-wrap">
           <div class="hex-wrap waypoint" data-animation="flip-in-x">
             <div class="hexagon">
-              <i class="mdi mdi-speedometer"></i>
+              <i style="margin-top: 10px;" class="mdi mdi-brain"></i>
             </div>
           </div>
           <div class="waypoint" data-animation="fade-in">
-            <div class="label bold">Fast</div>
-            <div>Fast load times and lag free interaction, my highest priority.</div>
+            <div class="label bold">Fast Learner</div>
+            <div>Saya selalu bersemangat mempelajari hal baru dan cepat beradaptasi dengan teknologi baru.</div>
           </div>
         </div>
 
-        <div class="flex bullet-wrap " >
+        <div class="flex bullet-wrap">
           <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
             <div class="hexagon">
-              <i class="mdi mdi-cellphone-link"></i>
+              <i style="margin-top: 10px;" class="mdi mdi-account-group-outline"></i>
             </div>
           </div>
           <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-            <div class="label bold">Responsive</div>
-            <div>My layouts will work on any device, big or small.</div>
-          </div>
-        </div>
-        </div>
-        <div class="flex row-gt-sm">
-          <div class="flex bullet-wrap " >
-            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
-              <div class="hexagon">
-                <i class="mdi mdi-lightbulb-outline"></i>
-              </div>
-            </div>
-            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-              <div class="label bold">Intuitive</div>
-              <div>Strong preference for easy to use, intuitive UX/UI.</div>
-            </div>
-          </div>
-
-          <div class="flex bullet-wrap " >
-            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
-              <div class="hexagon">
-                <i class="mdi mdi-rocket"></i>
-              </div>
-            </div>
-            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-              <div class="label bold">Dynamic</div>
-              <div>Websites or mobile don't have to be static, I love making pages come to life.</div>
-            </div>
+            <div class="label bold">Leadership</div>
+            <div>Mampu memimpin tim dengan baik agar tujuan proyek tercapai tepat waktu.</div>
           </div>
         </div>
       </div>
 
+      <div class="flex row-gt-sm">
+        <div class="flex bullet-wrap">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+            <div class="hexagon">
+              <i style="margin-top: 10px;" class="mdi mdi-emoticon-happy-outline"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+            <div class="label bold">Fun & Flexible</div>
+            <div>Saya percaya produktivitas datang dari suasana kerja yang menyenangkan dan fleksibel — serius saat bekerja, tapi tetap punya humor untuk menjaga semangat tim.</div>
+          </div>
+        </div>
+
+        <div class="flex bullet-wrap">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+            <div class="hexagon">
+              <i style="margin-top: 10px;" class="mdi mdi-flag-checkered"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+            <div class="label bold">Goal Oriented</div>
+            <div>Saya terbiasa bekerja dengan target dan memastikan setiap proyek selesai tepat waktu dengan hasil maksimal.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
       <div class="skills-wrapper flex row-gt-sm">
         <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-          <img src="img/me.png" class="me">
+          <img src="img/me.png" class="me" style="border-width: 2px; border-style: solid; border-color: #04C2C9; border-radius: 10px;">
           <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
           <div class="label bold">Who's this guy?</div>
           <div>
@@ -161,17 +165,17 @@
 
         <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
           <div class="bar flex">
-            <div class="bar fill" style="width:80%">
-              <div class="tag bold flex">CSS</div>
+            <div class="bar fill" style="width:90%">
+              <div class="tag bold flex">PHP</div>
             </div>
-            <span>80%</span>
+            <span>90%</span>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:90%">
-              <div class="tag bold flex">HTML</div>
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">Typescript</div>
             </div>
-            <span>90%</span>
+            <span>80%</span>
           </div>
 
           <div class="bar flex">
@@ -189,14 +193,14 @@
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:60%">
+            <div class="bar fill" style="width:90%">
               <div class="tag bold flex"> Laravel</div>
             </div>
-            <span>70%</span>
+            <span>90%</span>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:95%">
+            <div class="bar fill" style="width:85%">
               <div class="tag bold flex">IONIC </div>
             </div>
             <span>95%</span>
@@ -210,7 +214,7 @@
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:75%">
+            <div class="bar fill" style="width:85%">
               <div class="tag bold flex">React Native </div>
             </div>
             <span>75%</span>
@@ -225,25 +229,12 @@
 
 
           <div class="bar flex">
-            <div class="bar fill" style="width:50%">
+            <div class="bar fill" style="width:70%">
               <div class="tag bold flex">Node.js</div>
             </div>
             <span>50%</span>
           </div>
 
-          <div class="bar flex">
-            <div class="bar fill" style="width:75%">
-              <div class="tag bold flex">Photoshop</div>
-            </div>
-            <span>80%</span>
-          </div>
-
-          <div class="bar flex">
-            <div class="bar fill" style="width:80%">
-              <div class="tag bold flex">Corel Draw</div>
-            </div>
-            <span>80%</span>
-          </div>
 
         </div>
       </div>
@@ -283,7 +274,9 @@
           </div>
           <div class="button" id="roambi">LEARN MORE</div>
         </div>
-      </div>
+      </div> 
+      
+    
 
       <div class="mix rails" data-my-order="1">
         <div>
@@ -383,7 +376,41 @@
           </div>
           <div class="button" id="msl">LEARN MORE</div>
         </div>
+      </div> 
+      
+      <div class="mix rails" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">TOKOMIRING</div>
+            <span class="highlight">Tokomiring Palembang</span>
+          </div>
+          <div class="button" id="tokmir">LEARN MORE</div>
+        </div>
       </div>
+
+        <div class="mix js" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Tokomiring Web & POS</div>
+            <span class="highlight">Laravel & Vue</span>
+          </div>
+          <div class="button" id="tokmir_web">LEARN MORE</div>
+        </div>
+      </div>
+
+       <div class="mix rails" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">GANCANG.NET</div>
+            <span class="highlight">PT.Industri Kreatif Digital</span>
+          </div>
+          <div class="button" id="gancang">LEARN MORE</div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -398,16 +425,16 @@
       <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
 
       <div class="flex row wrap">
-        <div class="flex row-gt-sm">
+        <div class="row-gt-sm" style="margin-right: 2.1rem;">
           <a href="https://api.whatsapp.com/send?phone=6285210093953&text=Halo Fauzy'" target="_blank">
             <div class="blog-wrap waypoint" data-animation="fade-in">
               <div class="fade-wrap">
                 <img src="img/icon/WhatsApp.png" width="100" style="margin-left: 15%;">
-                <div class="label bold">+62 852 100 93 953</div>
+                <div class="label bold" style="font-size: 0.8rem;">+62 852 100 93 953</div>
               </div>
             </div>
           </a>
-          <a href="https://t.me/Basthatan" target="_blank">
+          <!-- <a href="https://t.me/Basthatan" target="_blank">
             <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".2s">
               <div class="fade-wrap">
                   <img src="img/icon/Telegram.png" width="100" style="margin-left: 15%;">
@@ -415,10 +442,11 @@
                
               </div>
             </div>
-          </a>
+          </a> -->
         </div>
-        <div class="flex row-gt-sm">
-          <a href="tel:+6285210093953" target="_blank">
+        <br>
+        <div class="row-gt-sm">
+          <!-- <a href="tel:+6285210093953" target="_blank">
             <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">
               <div class="fade-wrap">
                
@@ -426,13 +454,13 @@
                 <div class="label bold">+62 852 100 93 953</div>
               </div>
             </div>
-          </a>
+          </a> -->
           <a href="mailto:fauzy.agustian@gmail.com" target="_blank">
             <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s">
               <div class="fade-wrap">
                
                 <img src="img/icon/Mail.png" width="100" style="margin-left: 20%;">
-                <div class="label bold">fauzy.agustian@gmail.com</div>
+                <div class="label bold" style="font-size: 0.8rem;margin-left: 10px;">fauzy.agustian@gmail.com</div>
               </div>
             </div>
           </a>
@@ -507,6 +535,9 @@
    <!-- <img src="img/thumb-6.jpg"/> -->
    <img src="img/thumb-7.jpg"/>
    <img src="img/thumb-10.jpg"/>
+   <img src="img/thumb-11.jpg"/>
+   <img src="img/thumb-12.jpg"/>
+   <img src="img/thumb-13.jpg"/>
    <img src="img/blog-1.jpg"/>
    <img src="img/blog-2.jpg"/>
    <img src="img/blog-3.jpg"/>

@@ -61,6 +61,24 @@ $(document).ready(function(){
       tag: 'PT MITRAUTAMA SEJAHTERA LOGISTIK',
       detail: 'Aplikasi tracking dan deliveryman PT MITRAUTAMA SEJAHTERA LOGISTIK, memudahkan kurir dalam pengiriman barang ke customer ',
       link: 'https://play.google.com/store/apps/details?id=mslsquad.erizky.asia'
+    },
+    tokmir: {
+      title: 'Aplikasi Tokomiring',
+      tag: 'Mobile E-commerce & Retail (PT.Tokomiring)',
+      detail: 'Aplikasi E-commerce berbasis mobile untuk PT.Tokomiring, dengan fiture lengkap seperti katalog produk, pemesanan, tracking order, hingga pembayaran secara mobile.',
+      link: 'https://play.google.com/store/apps/details?id=com.tokomiring'
+    },
+    tokmir_web: {
+      title: 'Web & POS Tokomiring',
+      tag: 'Web E-commerce & POS Retail (PT.Tokomiring)',
+      detail: 'Backend web pengelolaan produk dan point of sales (POS) untuk retail PT.Tokomiring, dengan fiture lengkap seperti pengelolaan produk, kategori, stok, hingga laporan penjualan secara real-time.',
+      link: 'https://tokomiring.id'
+    },
+    gancang: {
+      title: 'Aplikasi Gancang.net',
+      tag: 'Management Pengelolaan internet',
+      detail: 'Aplikasi pengelolaan pelanggan dan monitoring jaringan internet untuk ISP Gancang.net, memudahkan admin dalam mengelola pelanggan, tagihan, hingga monitoring jaringan secara real-time.',
+      link: 'https://play.google.com/store/apps/details?id=com.gancangnet_v2'
     }
   };
 
